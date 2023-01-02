@@ -17,7 +17,7 @@ class IntegerInputGetter(UserInputGetter):
         super().__init__(supported_options)
 
     @classmethod
-    def is_valid(cls, value) -> bool:
+    def is_valid(cls, value: str) -> bool:
         return bool(cls.regex.match(value))
 
     @staticmethod
