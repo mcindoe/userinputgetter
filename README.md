@@ -4,7 +4,7 @@ This package provides an interface, and several implementations, of classes whic
 
 The input is checked for validity (for example if a date is expected, the input must match one of several supported date regular expressions), and optionally a user may specified an iterable of supported options, in which case the user input must be parsable as one of the specified options.
 
-The implementations provide two key methods for interacting with user input. The first is `get_value()`, and the second is `get_multiple_values()`, which parses multiple user inputs when provided as a comma-separated list
+The implementations provide two main methods for interacting with user input. The first is `get_value()`, and the second is `get_multiple_values()`, which parses multiple user inputs when provided as a comma-separated list
 
 The abstract base class is called `UserInputGetter`, and the following implementations are provided:
 
