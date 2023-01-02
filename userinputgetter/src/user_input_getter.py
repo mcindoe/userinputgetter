@@ -51,7 +51,7 @@ class UserInputGetter(ABC):
 
         return value
 
-    def is_supported(self, value: Any) -> bool:
+    def is_supported(self, value: str) -> bool:
         """
         Check that the parsed input is a supported option. Typically this
         will not need to be overloaded
@@ -93,7 +93,7 @@ class UserInputGetter(ABC):
 
             print(self.NOT_SUPPORTED_MESSAGE)
 
-    def get_multiple_inputs(self) -> Union[None, Tuple[Any]]:
+    def get_multiple_inputs(self) -> Union[None, Tuple[str]]:
         """
         Similar to get_input(), but get multiple values separated by commas
         """
