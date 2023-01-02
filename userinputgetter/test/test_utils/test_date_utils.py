@@ -1,6 +1,6 @@
 import pytest
 
-from userinputgetter.src.date_utils import get_day_suffix
+from userinputgetter.src.utils.date_utils import get_day_suffix
 
 
 def test_get_day_suffix():
