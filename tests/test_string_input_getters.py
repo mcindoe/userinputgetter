@@ -1,6 +1,6 @@
 import pytest
 
-from userinputgetter.src.string_input_getters import CaseInsensitiveStringInputGetter
+from userinputgetter.string_input_getters import CaseInsensitiveStringInputGetter
 
 
 class TestCaseInsensitiveStringInputGetter:

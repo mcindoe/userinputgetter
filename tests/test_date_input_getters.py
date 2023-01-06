@@ -1,9 +1,9 @@
 import datetime as dt
 import pytest
 
-from userinputgetter.src.date_input_getters import _AnyDateInputGetter
-from userinputgetter.src.date_input_getters import _SpecifiedDateInputGetter
-from userinputgetter.src.date_input_getters import DateInputGetter
+from userinputgetter.date_input_getters import _AnyDateInputGetter
+from userinputgetter.date_input_getters import _SpecifiedDateInputGetter
+from userinputgetter.date_input_getters import DateInputGetter
 
 
 class Test_SpecifiedDateInputGetter:

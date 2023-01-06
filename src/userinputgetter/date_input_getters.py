@@ -8,8 +8,8 @@ from typing import Iterable
 from typing import Optional
 from typing import Union
 
-from userinputgetter.src.utils.date_utils import get_day_suffix
-from userinputgetter.src.user_input_getter import UserInputGetter
+from userinputgetter.utils.date_utils import get_day_suffix
+from userinputgetter.user_input_getter import UserInputGetter
 
 
 def format_date_string(date: dt.date, fmt: str) -> dt.date:

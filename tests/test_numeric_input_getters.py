@@ -1,7 +1,7 @@
 import datetime as dt
 import pytest
 
-from userinputgetter.src.numeric_input_getters import IntegerInputGetter
+from userinputgetter.numeric_input_getters import IntegerInputGetter
 
 
 class TestIntegerInputGetter:

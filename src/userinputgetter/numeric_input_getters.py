@@ -2,7 +2,7 @@ import re
 from typing import Iterable
 from typing import Optional
 
-from userinputgetter.src.user_input_getter import UserInputGetter
+from userinputgetter.user_input_getter import UserInputGetter
 
 
 class IntegerInputGetter(UserInputGetter):
