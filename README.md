@@ -13,3 +13,8 @@ The abstract base class is called `UserInputGetter`, and the following implement
 * `IntegerInputGetter`
 * `CaseInsensitiveStringInputGetter`
 * `DateInputGetter`
+
+## Download from the Python Package Index
+
+* `pip install userinputgetter`
+* https://pypi.org/project/userinputgetter/1.0.0/
