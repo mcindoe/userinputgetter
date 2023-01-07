@@ -46,9 +46,11 @@ class TestCaseInsensitiveStringInputGetter:
     ):
 
         monkeypatch.setattr('builtins.input', lambda _: "FOO")
-
         assert any_case_insensitive_string_input_getter.get_input() == "FOO"
         assert specified_case_insensitive_string_input_getter.get_input() == "foo"
+
+        monkeypatch.setattr('builtins.input', lambda _: "BaZ")
+        assert specified_case_insensitive_string_input_getter.get_input() == "BAZ"
 
     def test_get_multiple_inputs(
         self,
