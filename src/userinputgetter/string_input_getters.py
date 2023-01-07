@@ -29,4 +29,4 @@ class CaseInsensitiveStringInputGetter(UserInputGetter):
         if self.supported_options is None:
             return True
 
-        return value.lower() in self.supported_options
+        return value.lower() in {x.lower() for x in self.supported_options}
